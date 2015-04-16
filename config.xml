@@ -7,7 +7,7 @@
 
     <!-- versionCode is optional and Android only -->
     <gap:platform name="android" />
-    <preference name="phonegap-version"           value="3.1.0" />
+    <preference name="phonegap-version"           value="3.7.0" />
         
     <name>LedYBotonRemoto</name>
 
