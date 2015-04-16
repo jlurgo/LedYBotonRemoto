@@ -1,0 +1,28 @@
+#led{
+    border-radius:50%;
+    height:100px;
+    width: 100px;
+    background-color:black;
+    border: 1px solid black;
+    position: absolute;
+    right: 10px;
+}
+
+.encendido{
+    background-color:red !important;
+}
+
+#btn_prender{
+    height: 100px;
+    width:300px;
+    position: absolute;
+    left: 10px;
+}
+
+#btn_apagar{
+    height: 100px;
+    width:300px;
+    position: absolute;
+    left: 10px;
+    top: 150px;
+}
