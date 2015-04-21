@@ -2,7 +2,8 @@ var main = function(){
     var btn_prender = $("#btn_prender");
     var btn_apagar = $("#btn_apagar");
     var led = $("#led");
-
+    
+    DivConsola.start();
     var abrirPuertoSerie = function(){
 		serial.open ({baudRate: 115200},
 			function(successMessage) {
@@ -32,7 +33,6 @@ var main = function(){
 					);	
                 });
 			
-				var buffer_entrada_serie = "";
 				serial.registerReadCallback(
 					function(data){
 						var view = new Uint8Array(data);
